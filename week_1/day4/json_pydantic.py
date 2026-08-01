@@ -75,3 +75,12 @@ ticket=Ticket(**data_file)
 print(ticket.name)
 print(ticket.email)
 print(ticket.issue)
+
+
+# $ uv init day1
+# $ uv venv --python 3.14.3
+# .\.venv\Scripts\activate.ps1
+# python --version
+# code json_pydantic.py
+# uv add groq python-dotenv pydantic
+# python ./json_pydantic.py
