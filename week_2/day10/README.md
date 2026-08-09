@@ -65,3 +65,7 @@
 
 * You are expected to build at least 70% of this (the Python logic, resume parsing, memory, and prompts) using the knowledge from Weeks 1 and 2.
 * If you struggle with the web development aspects (FastAPI, Vercel, connecting frontend to backend), that is okay. Try your best using ChatGPT, and the instructor will provide a full walkthrough in the next video.
+
+
+
+https://github.com/mrinmoykumarmaity/own_ai/tree/main
