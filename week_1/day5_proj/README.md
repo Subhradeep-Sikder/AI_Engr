@@ -1,3 +1,11 @@
+#youtube link: https://youtu.be/9Ojj6tTYI9c
+#github link: https://github.com/perryvegehan/padho_with_pratyush_Ai_Enginner/tree/main/week1/day5
+
+
+
+
+
+
 Here are the comprehensive revision notes based strictly on the lecture provided. These are formatted in Markdown, ready to be copied and pasted into your GitHub repository.
 
 ---
