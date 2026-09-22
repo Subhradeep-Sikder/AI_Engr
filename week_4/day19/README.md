@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Introduction and Learning Framework
+## 1. Introduction and Learning Framework.
 
 ### 1.1 Context & Community Demand
 
