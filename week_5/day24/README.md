@@ -8,23 +8,24 @@
 ---
 
 ## 📑 Table of Contents
-1. [Introduction & The Core Analogy](#1-introduction--the-core-analogy)
-   - [1.1 The Household Helper Story (Language Barrier Analogy)](#11-the-household-helper-story-language-barrier-analogy)
-   - [1.2 Analogy Mapping to AI Systems](#12-analogy-mapping-to-ai-systems)
-2. [What is Model Context Protocol (MCP)?](#2-what-is-model-context-protocol-mcp)
-3. [The Two Major Problems MCP Solves](#3-the-two-major-problems-mcp-solves)
-   - [3.1 Problem 1: Exponential Code Expansion (Codebase Bloat)](#31-problem-1-exponential-code-expansion-codebase-bloat)
-   - [3.2 Problem 2: Fragile Dependencies & API Breaking Changes](#32-problem-2-fragile-dependencies--api-breaking-changes)
-4. [How MCP Works (Architecture & Execution Flow)](#4-how-mcp-works-architecture--execution-flow)
-   - [4.1 Concept of Protocol](#41-concept-of-protocol)
-   - [4.2 The MCP Server Architecture](#42-the-mcp-server-architecture)
-   - [4.3 Key Advantage](#43-key-advantage)
-5. [The Restaurant Ordering Analogy](#5-the-restaurant-ordering-analogy)
-6. [Industry Standard & Adoption](#6-industry-standard--adoption)
-7. [⚡ Quick Revision Summary](#-quick-revision-summary)
-8. [❓ Questions Raised by Lecturer](#-questions-raised-by-lecturer)
-9. [📖 Definitions (From Video Only)](#-definitions-from-video-only)
-10. [💡 Examples Used in Video](#-examples-used-in-video)
+
+- [1. Introduction & The Core Analogy](#1-introduction--the-core-analogy)
+  - [1.1 The Household Helper Story (Language Barrier Analogy)](#11-the-household-helper-story-language-barrier-analogy)
+  - [1.2 Analogy Mapping to AI Systems](#12-analogy-mapping-to-ai-systems)
+- [2. What is Model Context Protocol (MCP)?](#2-what-is-model-context-protocol-mcp)
+- [3. The Two Major Problems MCP Solves](#3-the-two-major-problems-mcp-solves)
+  - [3.1 Problem 1: Exponential Code Expansion (Codebase Bloat)](#31-problem-1-exponential-code-expansion-codebase-bloat)
+  - [3.2 Problem 2: Fragile Dependencies & API Breaking Changes](#32-problem-2-fragile-dependencies--api-breaking-changes)
+- [4. How MCP Works (Architecture & Execution Flow)](#4-how-mcp-works-architecture--execution-flow)
+  - [4.1 Concept of Protocol](#41-concept-of-protocol)
+  - [4.2 The MCP Server Architecture](#42-the-mcp-server-architecture)
+  - [4.3 Key Advantage](#43-key-advantage)
+- [5. The Restaurant Ordering Analogy](#5-the-restaurant-ordering-analogy)
+- [6. Industry Standard & Adoption](#6-industry-standard--adoption)
+- [7. ⚡ Quick Revision Summary](#-quick-revision-summary)
+- [8. ❓ Questions Raised by Lecturer](#-questions-raised-by-lecturer)
+- [9. 📖 Definitions (From Video Only)](#-definitions-from-video-only)
+- [10. 💡 Examples Used in Video](#-examples-used-in-video)
 
 ---
 
@@ -81,12 +82,14 @@ A wise person intervenes and establishes a universal standard: **English**.
 ## 4. How MCP Works (Architecture & Execution Flow)
 
 ### 4.1 Concept of Protocol
+> [!NOTE]
 > A **Protocol** is a standard set of rules governing interactions between entities (e.g., VIP diplomatic protocols, college rules).
 
 ### 4.2 The MCP Server Architecture
 Tool creators (Tavily, Gmail, Slack, GitHub) package their capabilities inside an **MCP Server**.
 
 #### Interaction Sequence Diagram
+
 ```mermaid
 sequenceDiagram
     autonumber
@@ -152,7 +155,7 @@ Across millions of hotels and restaurants globally (KFC, Domino's, local diners)
 
 ---
 
-## ⚡ Quick Revision Summary
+## 7. ⚡ Quick Revision Summary
 
 1. **MCP** stands for **Model Context Protocol**, created by **Anthropic** in 2024.
 2. MCP establishes an open, standard language/protocol for LLMs to interact with third-party tools.
@@ -165,7 +168,7 @@ Across millions of hotels and restaurants globally (KFC, Domino's, local diners)
 
 ---
 
-## ❓ Questions Raised by Lecturer
+## 8. ❓ Questions Raised by Lecturer
 
 ### Q1: Who created MCP, and when?
 > **Answer:** Anthropic created the Model Context Protocol (MCP) in 2024 as an open standard.
@@ -177,7 +180,7 @@ Across millions of hotels and restaurants globally (KFC, Domino's, local diners)
 
 ---
 
-## 📖 Definitions (From Video Only)
+## 9. 📖 Definitions (From Video Only)
 
 | Term | Definition |
 | :--- | :--- |
@@ -187,7 +190,7 @@ Across millions of hotels and restaurants globally (KFC, Domino's, local diners)
 
 ---
 
-## 💡 Examples Used in Video
+## 10. 💡 Examples Used in Video
 
 * **Language Barrier Story:** Hiring a French-speaking driver, Japanese-speaking cook, German-speaking cleaner, and Chinese-speaking replacement cook vs. standardizing on English.
 * **Restaurant Ordering Protocol:** Universal 3-step order process (Request Menu $\rightarrow$ Place Order $\rightarrow$ Pay Bill) across KFC, Domino's, and local restaurants.
